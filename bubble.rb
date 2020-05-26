@@ -11,7 +11,7 @@ def bubble_sort(arr)
 end
 
 arr = [10, 5, 8, 11, 100, 8, 3]
-bubble_sortarr
+bubble_sort(arr)
 
 def bubble_sort_by(arr)
   arr.length.times do
