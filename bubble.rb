@@ -19,11 +19,15 @@ def bubble_sort_by (arr)
   (arr.length).times do
         (arr.length - 1).times do |i|
             result = yield arr[i], arr[i+1]
-      arr[i], arr[i+1] = arr[i+1], arr[i] if result.positive?
+      if result.positive?
+        arr[i], arr[i+1] = arr[i+1], arr[i] 
+      end
     end
   end
  print arr
 end
 
 
-bubble_sort_by(["hiiiiii", "hello", "hey",]) do |left, right| left.length <=> right.length end
+bubble_sort_by(["hiiiiii", "hello", "hey",]) do |left, right| 
+    left.length - right.length
+end
