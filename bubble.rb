@@ -19,9 +19,9 @@ def bubble_sort_by (arr)
   (arr.length).times do
         (arr.length - 1).times do |i|
             result = yield arr[i], arr[i+1]
-      if result.positive?
-        arr[i], arr[i+1] = arr[i+1], arr[i] 
-      end
+            if result.positive?
+                arr[i], arr[i+1] = arr[i+1], arr[i] 
+            end
     end
   end
  print arr
