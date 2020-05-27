@@ -2,13 +2,21 @@
 
 ## Milestones
 
-- One of the simpler (but more processor-intensive) ways of sorting a group of items in an array is bubble sort, where each element is compared to the one next to it and they are swapped if the one on the left is larger than the one on the right. This continues until the array is eventually sorted.
+- Implementation of the bubble sort algorithm where each element is compared to the one next to it and they are swapped if the one on the left is larger than the one on the right. This continues until the array is eventually sorted.
 
-- Now create a similar method called #bubble_sort_by which sorts an array by accepting a block, using yield inside the method definition to accomplish this. The block will have two arguments that represent the two elements of the array that are currently being compared. The block’s return will be similar to the spaceship operator you learned about before: If the result of the block execution is negative, the element on the left is “smaller” than the element on the right. 0 means both elements are equal. A positive result means the left element is greater. Use the block’s return value to sort your array. 
+## implementation
+
+- The implemntation uses two methods, method one is #bubble_sort which just takes an array and sorts it.
+- Method two is the #bubble_sort_by which sorts an array by accepting a block, using yield inside the method definition to accomplish this. The block has two arguments that represent the two elements of the array that are currently being compared. The block’s return is similar to the spaceship operator: If the result of the block execution is negative, the element on the left is “smaller” than the element on the right. 0 means both elements are equal. A positive result means the left element is greater. The block’s return value is then used to sort the array.
 
 ## Built With
 
 - Ruby 2.6.5p114
+
+## Getting Started
+
+**To test the bubble sort functions, you need to have ruby installed on your machine.**
+Clone the repo and then in your terminal execute **ruby tests.rb**
 
 ## Authors
 
