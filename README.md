@@ -12,7 +12,7 @@ A method #bubble_sort that takes an array and returns a sorted array
 
 - Github: [@asiimwedismas](https://github.com/asiimwedismas)
 - Twitter: [@asiimwedismas](https://twitter.com/asiimwedismas)
-- Linkedin: [asiimwedismas](https://linkedin.com/asiimwedismas)
+- Linkedin: [asiimwedismas](https://www.linkedin.com/in/asiimwedismas/)
 
 👤 **Bruna Gobi**
 
