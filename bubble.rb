@@ -3,7 +3,6 @@ def bubble_sort(arr)
     (arr.length - 1).times do |i|
       if arr[i] > arr [i + 1]
         arr[i], arr[i + 1] = arr[i + 1], arr[i]
-        i += 1
       end
     end
   end
@@ -23,6 +22,6 @@ def bubble_sort_by(arr)
   print arr
 end
 
-bubble_sort_by(['hiiiiii', 'hello', 'hey']) do |left, right|
+bubble_sort_by(%w[hiiiiii hello hey]) do |left, right|
   left.length - right.length
 end
